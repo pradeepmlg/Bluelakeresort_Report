@@ -906,7 +906,9 @@
             <TablixRowHierarchy>
               <TablixMembers>
                 <TablixMember>
+                  <FixedData>true</FixedData>
                   <KeepWithGroup>After</KeepWithGroup>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
                 </TablixMember>
                 <TablixMember>
                   <Group Name="Details" />
@@ -915,7 +917,7 @@
             </TablixRowHierarchy>
             <DataSetName>DataSet1</DataSetName>
             <Top>0.06944in</Top>
-            <Left>0.81273in</Left>
+            <Left>0.53594in</Left>
             <Height>0.5in</Height>
             <Width>9.98958in</Width>
             <Style>
@@ -1441,7 +1443,7 @@
             </TablixRowHierarchy>
             <DataSetName>DataSet2</DataSetName>
             <Top>0.78056in</Top>
-            <Left>0.81273in</Left>
+            <Left>0.53597in</Left>
             <Height>0.5in</Height>
             <Width>6.81247in</Width>
             <ZIndex>1</ZIndex>
@@ -1497,9 +1499,9 @@
               </Paragraphs>
               <rd:DefaultName>Textbox3</rd:DefaultName>
               <Top>0.43625in</Top>
-              <Left>0.81273in</Left>
+              <Left>0.53597in</Left>
               <Height>0.34375in</Height>
-              <Width>9.98958in</Width>
+              <Width>9.98955in</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -1517,6 +1519,10 @@
             </Border>
           </Style>
         </PageHeader>
+        <PageHeight>8.5in</PageHeight>
+        <PageWidth>11in</PageWidth>
+        <InteractiveHeight>8.5in</InteractiveHeight>
+        <InteractiveWidth>11in</InteractiveWidth>
         <Style />
       </Page>
     </ReportSection>
